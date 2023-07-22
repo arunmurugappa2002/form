@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="learn.css">
+</head>
+<body>
+   <form>
+   <fieldset class="account-info">
+    <label>
+        Username
+        <input type="text" name="username" id="d1">
+    </label>
+    <label>
+        password
+        <input type="password" name="password" id="d2">
+    </label>
+   </fieldset>
+   <fieldset class="account-action">
+    <button type="button" name="submit" class="btn" value="login" onclick="login()">login</button>
+<label>
+    <input type="checkbox" name="remember">stay signed in
+</label>
+   </fieldset>
+   </form> 
+   <script>
+function login()
+{
+    var a=document.getElementById("d1").value;
+    var b=document.getElementById("d2").value;
+    var correctmail="arun";
+    var pass ="123";
+    if(a==correctmail&&b==pass)
+    {
+        alert("welcome");
+        document.write("<p>newton</p>")
+    
+    }
+    else{
+        alert("not valid");
+    }
+
+}
+
+   </script>
+</body>
+
+</html>
