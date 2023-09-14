@@ -1,0 +1,62 @@
+body{
+    background-color: skyblue;
+}
+form{
+    
+    width: 240px;
+    padding-left: 250px;
+    padding-top: 200px;
+    
+}
+fieldset{
+    border: 0;
+    
+}
+button{
+    border-radius: 5px;
+
+}
+input{
+    border-radius: 5px;
+}
+.account-info{
+    padding: 20px 20px 0 20px;
+}
+.account-info label{
+    color: #393939;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.account-info input{
+    background: #fff;
+    border: 1px solid #c6c7cc;
+    color: #636466;
+    padding: 6px;
+    margin-top: 6px;
+    
+}
+.account-action{
+    background: #f0f0f2;
+    border: 1px solid #c6c7cc;
+    padding: 20px;
+}
+    
+.account-action .btn{
+    background: linear-gradient(#49708f,#293f50);
+    border: 0;
+    color:#fff ;
+    cursor: pointer;
+    float: left;
+    padding: 8px 16px;
+}
+.account-action .label{
+    color: #7c7c80;
+    font-size: 12px;
+    float: left;
+    margin: 20px 0 0 20px;
+    
+}
+p{
+    background-color: red;
+}
