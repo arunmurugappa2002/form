@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+
+}
+
+header{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #6DA5C0;
+    padding: 20px;
+}
+
+
+
+main{
+    margin-left: 40%;
+    margin-top: 100px;
+    display: flexbox;
+    text-align: center;
+    padding: 60px;
+    background-color: #6DA5C0;
+    border-radius: 30px;
+    width: 350px;
+    height: 220px;
+    background-image: url("mountain.jpg");
+    opacity: 0.6;
+    
+}
+main input {
+outline-color: #b51a2b;
+padding: 10px;
+border-radius: 5px;
+}
+
+main select {
+    outline-color: #b51a2b;
+    padding: 10px;
+    border-radius: 5px;
+    }
+main input ,#man,select{
+    width: 50%;
+    
+}
+button{
+    padding: 7px;
+    border-radius: 5px;
+    background-color: green;
+    width: 30%;
+}
